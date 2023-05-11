@@ -1,0 +1,134 @@
+body {
+    text-decoration: none;
+}
+
+.head-section {
+    display: inline;
+    position: fixed;
+    background-color: gray;
+    width: 100%;
+    height: 120px;
+}
+
+li {
+    display: flex;
+}
+
+
+main .mid-secton {
+    display: flex;
+    float: left;
+}
+
+.mid-div1 {
+    height: 400px;
+    text-align: center;
+    width: 33%;
+    float: left;
+    margin-right: 0.5%;
+    background-color: lightgrey;
+}
+
+.mid-div2 {
+    height: 400px;
+    text-align: center;
+    width: 33%;
+    float: left;
+    margin-right: 0.5%;
+    background-color: lightgrey;
+}
+
+.mid-div3 {
+    height: 400px;
+    text-align: center;
+    width: 33%;
+    float: left;
+    background-color: lightgrey;
+}
+
+.low-section {
+    display: grid;
+    grid-area: span;
+    text-align: center;
+    width: 100%;
+    background-color: lightblue;
+    margin-bottom: 100px;
+}
+
+footer .footer-section {
+    display: flex;
+    float: left;
+}
+
+.footer-list1 {
+    display: grid;
+    grid-auto-flow: column;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px;
+    background-color: antiquewhite;
+}
+
+.list1 {
+    display: flex;
+    float: right;
+    width: 10%;
+    margin-top: 50px;
+}
+
+.list2 {
+    display: flex;
+    float: right;
+    width: 10%;
+    margin-top: 50px;
+}
+
+.list3 {
+    display: flex;
+    float: right;
+    width: 10%;
+    margin-top: 50px;
+}
+
+.list4 {
+    display: flex;
+    float: left;
+    width: 10%;
+    margin-top: 50px;
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+    font-size: larger;
+}
+
+button {
+    color: red;
+    font-size: 25px;
+    margin-top: 25px;
+    background-color: olive;
+}
+
+.head-img {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 0%;
+}
+
+.high-section {
+    display: grid;
+    grid-area: span;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: pink;
+}
+
+.footer-section {
+    display: grid;
+    grid-auto-flow: column;
+    background-color: gray;
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+html {
+    background-color: black;
+    font-family: 'Bruno Ace SC', cursiv;
+    ;
+}
+
+body {
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(22, 17, 26);
+    color: white;
+}
+
+.navigate {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    background-color: rgba(56, 54, 54, 0.975);
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navigate li {
+    float: left;
+    padding: 11px;
+    border-right: 1px solid whitesmoke;
+}
+
+.navigate li:last-child {
+    border-left: 1px solid whitesmoke;
+    border-right: none;
+}
+
+.navigate li a {
+    display: block;
+    text-decoration: none;
+}
+
+.navigate li:hover {
+    background-color: aliceblue;
+    color: black;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#right {
+    float: right;
+}
+
+#logo {
+    height: 90%;
+    float: left;
+}
+
+.head-img {
+    width: 100%;
+    height: 250px;
+}
+
+#heading {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.positioner {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-right: 0%;
+    padding-left: 0%;
+}
+
+.intro-text {
+    color: red;
+    font-size: 30px;
+    background-image: url(./d4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+img {
+    height: 350px;
+    width: 240px;
+
+}
+
+.initial-scale1 {
+    height: 350px;
+    width: 240px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    box-shadow: 0 30px 30px black, 0 30px 30px black;
+    transition-duration: 1s;
+}
+
+.initial-scale2 {
+    height: 350px;
+    width: 240px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    box-shadow: 0 30px 30px black, 0 30px 30px black;
+    transition-duration: 1s;
+}
+
+.initial-scale1:hover {
+    box-shadow: 0 30px 30px rgb(74, 74, 150), 0 30px 30px orange;
+}
+
+.initial-scale2:hover {
+    box-shadow: 0 40px 40px rgb(74, 74, 150), 0 40px 40px orange;
+}
+
+.in1 {
+    display: flex;
+    float: left;
+    text-align: center;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.in2 {
+    display: flex;
+    float: left;
+    text-align: center;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.in3 {
+    display: flex;
+    float: left;
+    text-align: center;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.in4 {
+    display: flex;
+    float: left;
+    text-align: center;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.footer-links a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(83, 76, 76);
+}
+
+.container1 {
+    margin-left: 0px;
+    margin-right: 50px;
+    display: block;
+    text-align: center;
+    justify-content: right;
+}
+
+.img-dec {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+div ul li a {
+    float: right;
+    text-decoration: none;
+    color: white;
+    align-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.to-style {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 10px;
+    margin: auto;
+}
+
+li {
+    padding: 0px;
+    margin: 3px;
+}
+
+.div-align {
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+}
+
+
+.footer-links a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(55, 51, 51);
+    width: 100%;
+}
+
+
+
+.img-dec {
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.streams {
+    font-size: 25px;
+    text-align: center;
+    background-color: black;
+    color: rgb(223, 44, 44);
+    text-align: center;
+    width: 240px;
+    transition-duration: 0.5s;
+}
+
+.streams:hover {
+    color: rgb(43, 164, 212);
+    font-size: 30px;
+}
+
+.downloads {
+    font-size: 25px;
+    text-align: center;
+    background-color: black;
+    color: rgb(223, 44, 44);
+    text-align: center;
+    width: 240px;
+    transition-duration: 0.5s;
+}
+
+.downloads:hover {
+    color: rgb(43, 164, 212);
+    font-size: 30px;
+}
+
+.footer-con div {
+    float: left;
+}
+
+ul {
+    list-style: none;
+}
+
+.foothold::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.foothold {
+    position: fixed;
+    bottom: 0px;
+    right: 1%;
+}
+
+.div-align {
+    bottom: 1px;
+    width: 100%;
+    height: 160px;
+}
+
+.navigate {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 70px;
+    background-color: rgba(56, 54, 54, 0.975);
+    width: 100%;
+}
+
+.navigate {
+    display: flex;
+    float: left;
+}
+
+.navigate li:last-child {
+    border-left: 1px solid whitesmoke;
+    border-right: none;
+}
+
+
+.navigate li a {
+    text-decoration: none;
+}
+
+.navigate li:hover {
+    background-color: aliceblue;
+    color: red;
+    height: 20px;
+    width: 50px;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.div-align {
+    display: flex;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+main {
+    background-image: url(./d3.jpg);
+    background-repeat: repeat;
+    position: static;
+    height: 700px;
+    width: 100%
+}
+
+.in1 {
+    height: 350px;
+    width: 40%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.in2 {
+    height: 350px;
+    width: 40%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.in3 {
+    height: 350px;
+    width: 40%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.in4 {
+    height: 350px;
+    width: 40%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+main {
+    overflow-x: auto;
+    height: 400px;
+}
+
+.bg-img1 {
+    background-image: url(./h1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg-img2 {
+    background-image: url(./R.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg-img3 {
+    background-image: url(./a1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg-img4 {
+    background-image: url(./c4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg-img5 {
+    background-image: url(./n5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.resizing {
+    border-radius: 8px;
+}
